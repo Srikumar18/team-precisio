@@ -13,8 +13,9 @@
   }
 }
 
+/* Phoenix Red themed header */
 .App-header {
-  background-color: #282c34;
+  background-color: #DC143C !important ; 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,10 +23,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 2rem;
 }
 
+/* Accent links with a contrasting color */
 .App-link {
-  color: #61dafb;
+  color: #ffc107 !important; /* Amber */
 }
 
 @keyframes App-logo-spin {

@@ -1,0 +1,110 @@
+/* src/components/Navbar.css */
+
+/* Base Navbar Styles */
+
+.navbar-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+  }
+  
+  .navbar-links a:focus,
+  .navbar-links a.active {
+    background-color: #DC143C; /* Phoenix Red fill */
+    color: #fff;              /* Inverted text color */
+    border-color: #DC143C;
+    outline: none;
+  }
+  
+  
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #eee;
+    position: relative;
+}
+
+/* Left Section: Logo & Brand */
+/* Added fixed width to prevent logo from shifting the center content */
+.navbar-left {
+    display: flex;
+    align-items: center;
+    flex: 0 0 120px;  /* Fixed width for left section */
+}
+
+.navbar-logo {
+    height: 10vh;
+    margin-right: 1rem;
+    max-width: 100%; /* Prevent overflow */
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Center Section for Links */
+.navbar-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Right Section: Burger Icon */
+/* Added fixed width to balance left section */
+.navbar-right {
+    display: flex;
+    align-items: center;
+    flex: 0 0 90px;  
+}
+
+/* Burger Menu Icon (hidden on desktop) */
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 0;
+}
+
+/* ---------- Responsive Styles ---------- */
+@media (max-width: 768px) {
+    /* Show the burger icon on mobile */
+    .menu-icon {
+      display: flex;
+    }
+  
+    /* Hide the links by default on mobile */
+    .navbar-center .navbar-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;        /* Adjust this value as needed */
+      left: 50%;
+      transform: translateX(-50%);
+      background: #eee;
+      padding: 1rem;
+      border-radius: 4px;
+    }
+  
+    /* Display links when menu is open */
+    .navbar-center .navbar-links.open {
+      display: flex;
+    }
+}
