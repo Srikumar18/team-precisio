@@ -35,11 +35,13 @@ const Navbar = () => {
     <nav className="navbar" ref={navRef}>
       {/* Left Section: Logo & Brand */}
       <div className="navbar-left">
-        <img 
-          src="/images/logo.png" 
-          alt="Apex Racing Logo" 
-          className="navbar-logo"
-        />
+        <a href="/downloads/BPS_AIMS.pdf" download>
+          <img 
+            src="/images/logo.png" 
+            alt="Apex Racing Logo" 
+            className="navbar-logo"
+          />
+        </a>
       </div>
 
       {/* Center Section: Navigation Links */}
