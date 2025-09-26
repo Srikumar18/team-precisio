@@ -81,9 +81,6 @@ const CostBreakdown = () => {
       <Typography variant="h6" gutterBottom>
         Total Cost: Rs. {costData.totals.overall}
       </Typography>
-      <Typography variant="subtitle1" gutterBottom>
-        Fabrication: Rs. {costData.totals.fabrication} | Store Bought: Rs. {costData.totals.storeBought}
-      </Typography>
       {costData.domains.map((domain, index) => (
         <DomainTable key={index} domain={domain} />
       ))}

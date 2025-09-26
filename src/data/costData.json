@@ -1,0 +1,1163 @@
+{
+  "totalCost": 301461,
+  "domains": [
+    {
+      "name": "Frame & Body",
+      "total": 76203,
+      "overviewImage": "/images/frame_and_body_overview.png",
+      "subsystems": [
+        {
+          "name": "Chassis",
+          "subsystemId": "CFB100",
+          "total": 52423,
+          "image": "/images/chassis.png",
+          "components": [
+            {
+              "partNumber": "CFB100",
+              "name": "Frame",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Tube cutting → CNC tube bending → Jig & fixture welding (MIG/TIG) → Grinding/finishing → Powder coating/painting",
+              "processCost": 4975,
+              "rawMaterialCost": 25100,
+              "fastenersCost": 240,
+              "toolingCost": 1500,
+              "unitCost": 31815,
+              "quantity": 1,
+              "totalCost": 31815,
+              "design": "",
+              "image": "/images/frame.png"
+            },
+            {
+              "partNumber": "CFB101",
+              "name": "Front Body Mount",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Laser/Plasma cutting → Press brake bending → CNC drilling → MIG welding to brackets → Surface finishing",
+              "processCost": 254,
+              "rawMaterialCost": 136,
+              "fastenersCost": 50,
+              "toolingCost": 150,
+              "unitCost": 590,
+              "quantity": 1,
+              "totalCost": 590,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB102",
+              "name": "Body Mount-Left Side",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Same as CFB101 but mirrored geometry",
+              "processCost": 254,
+              "rawMaterialCost": 136,
+              "fastenersCost": 50,
+              "toolingCost": 150,
+              "unitCost": 590,
+              "quantity": 1,
+              "totalCost": 590,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB103",
+              "name": "Body Mount-Right Side",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Same as CFB101 but mirrored geometry",
+              "processCost": 254,
+              "rawMaterialCost": 136,
+              "fastenersCost": 50,
+              "toolingCost": 150,
+              "unitCost": 590,
+              "quantity": 1,
+              "totalCost": 590,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB104",
+              "name": "Rear Bumper Mount",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Cutting → Bending/Forming → CNC drilling → Welding → Surface treatment",
+              "processCost": 368,
+              "rawMaterialCost": 272,
+              "fastenersCost": 75,
+              "toolingCost": 200,
+              "unitCost": 915,
+              "quantity": 1,
+              "totalCost": 915,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB105",
+              "name": "Engine Mount",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Casting (for main block) or Forging → CNC machining → Rubber bushing press-fitting → Surface coating",
+              "processCost": 795,
+              "rawMaterialCost": 170,
+              "fastenersCost": 260,
+              "toolingCost": 500,
+              "unitCost": 1725,
+              "quantity": 1,
+              "totalCost": 1725,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB106",
+              "name": "Steering Column Mount",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Laser cutting → Bending/Forming → Drilling/tapping → Welding to bracket → Surface finish",
+              "processCost": 245,
+              "rawMaterialCost": 102,
+              "fastenersCost": 50,
+              "toolingCost": 120,
+              "unitCost": 517,
+              "quantity": 1,
+              "totalCost": 517,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB107",
+              "name": "Steering Column Support Mount",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Laser cutting → Bending → Drilling → Surface finish",
+              "processCost": 195,
+              "rawMaterialCost": 102,
+              "fastenersCost": 40,
+              "toolingCost": 120,
+              "unitCost": 457,
+              "quantity": 1,
+              "totalCost": 457,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB108",
+              "name": "Stub Axle Mount-Left",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "CNC machining from forging → Heat treatment → Drilling/tapping → Coating",
+              "processCost": 1450,
+              "rawMaterialCost": 238,
+              "fastenersCost": 350,
+              "toolingCost": 600,
+              "unitCost": 2638,
+              "quantity": 1,
+              "totalCost": 2638,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB109",
+              "name": "Stub Axle Mount-Right",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Same as CFB108, mirrored",
+              "processCost": 1450,
+              "rawMaterialCost": 238,
+              "fastenersCost": 350,
+              "toolingCost": 600,
+              "unitCost": 2638,
+              "quantity": 1,
+              "totalCost": 2638,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB110",
+              "name": "Driver Seat Mount",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Laser cutting → Bending/Forming → MIG welding → Drilling → Coating",
+              "processCost": 490,
+              "rawMaterialCost": 204,
+              "fastenersCost": 75,
+              "toolingCost": 180,
+              "unitCost": 949,
+              "quantity": 1,
+              "totalCost": 949,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB111",
+              "name": "Firewall Mount",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Laser cutting → Bending/forming → Spot welding → Surface finish",
+              "processCost": 390,
+              "rawMaterialCost": 204,
+              "fastenersCost": 75,
+              "toolingCost": 180,
+              "unitCost": 849,
+              "quantity": 1,
+              "totalCost": 849,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB112",
+              "name": "Fire Extinguisher Mount",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Laser cutting → Press brake forming → Drilling → Surface coating",
+              "processCost": 186,
+              "rawMaterialCost": 68,
+              "fastenersCost": 25,
+              "toolingCost": 80,
+              "unitCost": 359,
+              "quantity": 1,
+              "totalCost": 359,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB113",
+              "name": "Drive Shaft Mount-Left",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Forging → CNC machining → Drilling/tapping → Coating",
+              "processCost": 900,
+              "rawMaterialCost": 204,
+              "fastenersCost": 220,
+              "toolingCost": 500,
+              "unitCost": 1824,
+              "quantity": 1,
+              "totalCost": 1824,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB114",
+              "name": "Drive Shaft Mount-Right",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Same as CFB113, mirrored",
+              "processCost": 900,
+              "rawMaterialCost": 204,
+              "fastenersCost": 220,
+              "toolingCost": 500,
+              "unitCost": 1824,
+              "quantity": 1,
+              "totalCost": 1824,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB115",
+              "name": "Brake Calliper Mount",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "CNC machining from forging or billet → Heat treatment → Anodizing/painting",
+              "processCost": 900,
+              "rawMaterialCost": 136,
+              "fastenersCost": 180,
+              "toolingCost": 400,
+              "unitCost": 1616,
+              "quantity": 1,
+              "totalCost": 1616,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB116",
+              "name": "Accelerator Pedal Mount",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Laser cutting → Bending → Welding to bracket → Coating",
+              "processCost": 236,
+              "rawMaterialCost": 68,
+              "fastenersCost": 25,
+              "toolingCost": 80,
+              "unitCost": 409,
+              "quantity": 1,
+              "totalCost": 409,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB117",
+              "name": "Brake Pedal Mount",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Laser cutting → Bending → Drilling → Surface coating",
+              "processCost": 186,
+              "rawMaterialCost": 68,
+              "fastenersCost": 25,
+              "toolingCost": 80,
+              "unitCost": 359,
+              "quantity": 1,
+              "totalCost": 359,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB118",
+              "name": "Clutch Pedal Mount",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Laser cutting → Bending → Drilling → Surface coating",
+              "processCost": 186,
+              "rawMaterialCost": 68,
+              "fastenersCost": 25,
+              "toolingCost": 80,
+              "unitCost": 359,
+              "quantity": 1,
+              "totalCost": 359,
+              "design": ""
+            },
+            {
+              "partNumber": "CFB119",
+              "name": "Brake Over Travel Switch Mount",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Sheet Metal Stamping + Drilling + MIG Welding",
+              "processCost": 600,
+              "rawMaterialCost": 300,
+              "fastenersCost": 80,
+              "toolingCost": 150,
+              "unitCost": 1400,
+              "quantity": 1,
+              "totalCost": 1400,
+              "design": ""
+            }
+          ]
+        },
+        {
+          "name": "Body",
+          "subsystemId": "BFB100",
+          "total": 19580,
+          "components": [
+            {
+              "partNumber": "BFB100",
+              "name": "Front Body Bumper",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Sheet Metal Stamping + MIG Welding + Powder Coating",
+              "processCost": 1200,
+              "rawMaterialCost": 850,
+              "fastenersCost": 150,
+              "toolingCost": 500,
+              "unitCost": 2700,
+              "quantity": 1,
+              "totalCost": 2700,
+              "design": ""
+            },
+            {
+              "partNumber": "BFB101",
+              "name": "Front Body Panel",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Sheet Metal Stamping + MIG Welding + Powder Coating",
+              "processCost": 1800,
+              "rawMaterialCost": 1200,
+              "fastenersCost": 200,
+              "toolingCost": 700,
+              "unitCost": 3900,
+              "quantity": 1,
+              "totalCost": 3900,
+              "design": ""
+            },
+            {
+              "partNumber": "BFB102",
+              "name": "Body-Left Side",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Sheet Metal Stamping + MIG Welding + Powder Coating",
+              "processCost": 2200,
+              "rawMaterialCost": 1500,
+              "fastenersCost": 250,
+              "toolingCost": 900,
+              "unitCost": 4850,
+              "quantity": 1,
+              "totalCost": 4850,
+              "design": ""
+            },
+            {
+              "partNumber": "BFB103",
+              "name": "Body-Right Side",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Sheet Metal Stamping + MIG Welding + Powder Coating",
+              "processCost": 2200,
+              "rawMaterialCost": 1500,
+              "fastenersCost": 250,
+              "toolingCost": 900,
+              "unitCost": 4850,
+              "quantity": 1,
+              "totalCost": 4850,
+              "design": ""
+            },
+            {
+              "partNumber": "BFB104",
+              "name": "Rear Bumper",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Sheet Metal Stamping + MIG Welding + Powder Coating",
+              "processCost": 1500,
+              "rawMaterialCost": 1000,
+              "fastenersCost": 180,
+              "toolingCost": 600,
+              "unitCost": 3280,
+              "quantity": 1,
+              "totalCost": 3280,
+              "design": ""
+            }
+          ]
+        },
+        {
+          "name": "Driver Seat",
+          "subsystemId": "DFB100",
+          "total": 4200,
+          "components": [
+            {
+              "partNumber": "DFB100",
+              "name": "Driver Seat",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": "Sheet Metal Fabrication + MIG Welding + Foam Moulding + Upholstery",
+              "processCost": 1800,
+              "rawMaterialCost": 950,
+              "fastenersCost": 200,
+              "toolingCost": 650,
+              "unitCost": 4200,
+              "quantity": 1,
+              "totalCost": 4200,
+              "design": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brakes System",
+      "total": 19300,
+      "overviewImage": "/images/braking_system_overview.png",
+      "subsystems": [
+        {
+          "name": "Brakes System Components",
+          "subsystemId": "BS100",
+          "total": 19300,
+          "components": [
+            {
+              "partNumber": "BS100",
+              "name": "Brake Fluid",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 300,
+              "quantity": 2,
+              "totalCost": 600,
+              "design": ""
+            },
+            {
+              "partNumber": "BS101",
+              "name": "Master Cylinder",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 1500,
+              "quantity": 2,
+              "totalCost": 3000,
+              "design": ""
+            },
+            {
+              "partNumber": "BS102",
+              "name": "Brake Pedal",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "1. CNC machining (pivot holes, precision features)\n2. Sheet metal cutting & bending (pedal arm)\n3. MIG/TIG welding (joining brackets)\n4. Powder coating (surface finish)",
+              "processCost": 500,
+              "rawMaterialCost": 700,
+              "fastenersCost": 100,
+              "toolingCost": 300,
+              "unitCost": 1600,
+              "quantity": 2,
+              "totalCost": 3200,
+              "design": ""
+            },
+            {
+              "partNumber": "BS103",
+              "name": "Fluid Line",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 400,
+              "quantity": 2,
+              "totalCost": 800,
+              "design": ""
+            },
+            {
+              "partNumber": "BS104",
+              "name": "Caliper",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "1. Die casting (main body for aluminum) or sand casting (iron)\n2. CNC milling (seal grooves, piston bores)\n3. Drilling & tapping (mounting holes)\n4. Anodizing/Painting (corrosion protection)",
+              "processCost": 800,
+              "rawMaterialCost": 1200,
+              "fastenersCost": 200,
+              "toolingCost": 500,
+              "unitCost": 2700,
+              "quantity": 2,
+              "totalCost": 5400,
+              "design": ""
+            },
+            {
+              "partNumber": "BS105",
+              "name": "Rotor",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "1. Laser or waterjet cutting (outer profile)\n2. CNC turning (hub and mounting surfaces)\n3. Heat treatment (hardness improvement)\n4. Surface grinding (smooth braking surface)",
+              "processCost": 1500,
+              "rawMaterialCost": 1000,
+              "fastenersCost": 150,
+              "toolingCost": 500,
+              "unitCost": 3150,
+              "quantity": 2,
+              "totalCost": 6300,
+              "design": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wheel Assembly & Tyres",
+      "total": 53338,
+      "subsystems": [
+        {
+          "name": "Wheel Assembly & Tyres Components",
+          "subsystemId": "WT100",
+          "total": 53338,
+          "components": [
+            {
+              "partNumber": "WT100",
+              "name": "Wheel",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 4500,
+              "quantity": 4,
+              "totalCost": 18000,
+              "design": ""
+            },
+            {
+              "partNumber": "WT101",
+              "name": "Tyre",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 7000,
+              "quantity": 4,
+              "totalCost": 28000,
+              "design": ""
+            },
+            {
+              "partNumber": "WT102",
+              "name": "Stub Axle-Left",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 1800,
+              "quantity": 1,
+              "totalCost": 1800,
+              "design": ""
+            },
+            {
+              "partNumber": "WT103",
+              "name": "Stub Axle-Right",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 1800,
+              "quantity": 1,
+              "totalCost": 1800,
+              "design": ""
+            },
+            {
+              "partNumber": "WT104",
+              "name": "Rear Wheel Hub-Left",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Cutting, Facing and Center Drilling, Boring and Internal Machining, Drillling and Tapping, Milling, Chamfering and Slotting",
+              "processCost": 930,
+              "rawMaterialCost": 527,
+              "fastenersCost": 292,
+              "toolingCost": 120,
+              "unitCost": 1869,
+              "quantity": 1,
+              "totalCost": 1869,
+              "design": ""
+            },
+            {
+              "partNumber": "WT105",
+              "name": "Rear Wheel Hub-Right",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Cutting, Facing and Center Drilling, Boring and Internal Machining, Drillling and Tapping, Milling, Chamfering and Slotting",
+              "processCost": 930,
+              "rawMaterialCost": 527,
+              "fastenersCost": 292,
+              "toolingCost": 120,
+              "unitCost": 1869,
+              "quantity": 1,
+              "totalCost": 1869,
+              "design": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Steering",
+      "total": 15800,
+      "subsystems": [
+        {
+          "name": "Steering Components",
+          "subsystemId": "SS100",
+          "total": 15800,
+          "components": [
+            {
+              "partNumber": "SS100",
+              "name": "Steering Wheel",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 2500,
+              "quantity": 1,
+              "totalCost": 2500,
+              "design": ""
+            },
+            {
+              "partNumber": "SS101",
+              "name": "Hub- Steering Wheel",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 3500,
+              "quantity": 1,
+              "totalCost": 3500,
+              "design": ""
+            },
+            {
+              "partNumber": "SS102",
+              "name": "Steering Column",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 2500,
+              "quantity": 1,
+              "totalCost": 2500,
+              "design": ""
+            },
+            {
+              "partNumber": "SS103",
+              "name": "Support-Steering Clumn",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 1000,
+              "quantity": 1,
+              "totalCost": 1000,
+              "design": ""
+            },
+            {
+              "partNumber": "SS104",
+              "name": "Bearing- Steering Column Pivot",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 500,
+              "quantity": 2,
+              "totalCost": 1000,
+              "design": ""
+            },
+            {
+              "partNumber": "SS105",
+              "name": "Housing-Bearing",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 400,
+              "quantity": 2,
+              "totalCost": 800,
+              "design": ""
+            },
+            {
+              "partNumber": "SS106",
+              "name": "Tripod",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 1000,
+              "quantity": 1,
+              "totalCost": 1000,
+              "design": ""
+            },
+            {
+              "partNumber": "SS107",
+              "name": "Tie Road-Left",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 700,
+              "quantity": 1,
+              "totalCost": 700,
+              "design": ""
+            },
+            {
+              "partNumber": "SS108",
+              "name": "Tie Rod-Right",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 700,
+              "quantity": 1,
+              "totalCost": 700,
+              "design": ""
+            },
+            {
+              "partNumber": "SS109",
+              "name": "Rod End",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 400,
+              "quantity": 4,
+              "totalCost": 1600,
+              "design": ""
+            },
+            {
+              "partNumber": "SS110",
+              "name": "Steering Wheel Positive Stop-Left",
+              "manufacturedOrBought": null,
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 250,
+              "quantity": 1,
+              "totalCost": 250,
+              "design": ""
+            },
+            {
+              "partNumber": "SS112",
+              "name": "Steering Wheel Positive Stop-Right",
+              "manufacturedOrBought": null,
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 250,
+              "quantity": 1,
+              "totalCost": 250,
+              "design": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electronics & Wiring",
+      "total": 6600,
+      "subsystems": [
+        {
+          "name": "Electronics & Wiring Components",
+          "subsystemId": "EW100",
+          "total": 6600,
+          "components": [
+            {
+              "partNumber": "EW100",
+              "name": "Battery",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 1800,
+              "quantity": 1,
+              "totalCost": 1800,
+              "design": ""
+            },
+            {
+              "partNumber": "EW101",
+              "name": "Wiring Harness",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 2500,
+              "quantity": 1,
+              "totalCost": 2500,
+              "design": ""
+            },
+            {
+              "partNumber": "EW102",
+              "name": "Brake Light",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 800,
+              "quantity": 1,
+              "totalCost": 800,
+              "design": ""
+            },
+            {
+              "partNumber": "EW103",
+              "name": "Sensor-Brake Light",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 400,
+              "quantity": 1,
+              "totalCost": 400,
+              "design": ""
+            },
+            {
+              "partNumber": "EW104",
+              "name": "Kill Switch",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 300,
+              "quantity": 1,
+              "totalCost": 300,
+              "design": ""
+            },
+            {
+              "partNumber": "EW105",
+              "name": "Brake Over Travel Switch",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 500,
+              "quantity": 1,
+              "totalCost": 500,
+              "design": ""
+            },
+            {
+              "partNumber": "EW106",
+              "name": "Start Switch",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 300,
+              "quantity": 1,
+              "totalCost": 300,
+              "design": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Suspension System",
+      "total": 34000,
+      "subsystems": [
+        {
+          "name": "Suspension Components",
+          "subsystemId": "SS100_Susp",
+          "total": 34000,
+          "components": [
+            {
+              "partNumber": "SS100",
+              "name": "Front Lower Wishbone",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 10000,
+              "quantity": 2,
+              "totalCost": 20000,
+              "design": ""
+            },
+            {
+              "partNumber": "SS101",
+              "name": "WP APEX separate-piston monoshock",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 7000,
+              "quantity": 2,
+              "totalCost": 14000,
+              "design": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Powertrain & Drivetrain",
+      "total": 94100,
+      "subsystems": [
+        {
+          "name": "Engine",
+          "subsystemId": "PPD100",
+          "total": 78770,
+          "components": [
+            {
+              "partNumber": "EET100",
+              "name": "Engine",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": "Bought complete (engine supplier)",
+              "processCost": 0,
+              "rawMaterialCost": 0,
+              "fastenersCost": 0,
+              "toolingCost": 0,
+              "unitCost": 70000,
+              "quantity": 1,
+              "totalCost": 70000,
+              "design": ""
+            },
+            {
+              "partNumber": "EET101",
+              "name": "Throttle Pedal",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Laser cutting / bending / welding / grinding / painting",
+              "processCost": 300,
+              "rawMaterialCost": 50,
+              "fastenersCost": 20,
+              "toolingCost": 50,
+              "unitCost": 450,
+              "quantity": 1,
+              "totalCost": 450,
+              "design": ""
+            },
+            {
+              "partNumber": "EET102",
+              "name": "Positive Stop - Throttle Pedal",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Laser cut bracket / bending / drilling / deburr",
+              "processCost": 150,
+              "rawMaterialCost": 30,
+              "fastenersCost": 10,
+              "toolingCost": 30,
+              "unitCost": 220,
+              "quantity": 1,
+              "totalCost": 220,
+              "design": ""
+            },
+            {
+              "partNumber": "EET103",
+              "name": "Throttle Cable",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": "Bought (pre-made cable assembly)",
+              "processCost": 0,
+              "rawMaterialCost": 0,
+              "fastenersCost": 0,
+              "toolingCost": 0,
+              "unitCost": 600,
+              "quantity": 1,
+              "totalCost": 600,
+              "design": ""
+            },
+            {
+              "partNumber": "EET104",
+              "name": "Exhaust Manifold",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": "Tube bending (mandrel) / TIG welding / flange machining / grinding / heat treatment/coating",
+              "processCost": 2000,
+              "rawMaterialCost": 1500,
+              "fastenersCost": 100,
+              "toolingCost": 300,
+              "unitCost": 4000,
+              "quantity": 1,
+              "totalCost": 4000,
+              "design": ""
+            },
+            {
+              "partNumber": "EET105",
+              "name": "Muffler",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": "Bought (aftermarket / OEM)",
+              "processCost": 0,
+              "rawMaterialCost": 0,
+              "fastenersCost": 0,
+              "toolingCost": 0,
+              "unitCost": 3500,
+              "quantity": 1,
+              "totalCost": 3500,
+              "design": ""
+            }
+          ]
+        },
+        {
+          "name": "Drivetrain",
+          "subsystemId": "DPD100",
+          "total": 6600,
+          "components": [
+            {
+              "partNumber": "TET100",
+              "name": "Gearbox",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 6000,
+              "quantity": 1,
+              "totalCost": 6000,
+              "design": ""
+            },
+            {
+              "partNumber": "TET101",
+              "name": "Driver Sprocket",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 600,
+              "quantity": 1,
+              "totalCost": 600,
+              "design": ""
+            }
+          ]
+        },
+        {
+          "name": "Fuel Tank",
+          "subsystemId": "FET100",
+          "total": 8800,
+          "components": [
+            {
+              "partNumber": "FET100",
+              "name": "Fue Tank",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 5000,
+              "quantity": 1,
+              "totalCost": 5000,
+              "design": ""
+            },
+            {
+              "partNumber": "FET101",
+              "name": "Fue Tank Mount",
+              "manufacturedOrBought": "Manufactured Part",
+              "processUsed": "Cutting, Welding",
+              "processCost": 800,
+              "rawMaterialCost": 1000,
+              "fastenersCost": 300,
+              "toolingCost": 500,
+              "unitCost": 3000,
+              "quantity": 1,
+              "totalCost": 3000,
+              "design": ""
+            },
+            {
+              "partNumber": "FET102",
+              "name": "Fuel pipe",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 800,
+              "quantity": 1,
+              "totalCost": 800,
+              "design": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fit & Finish",
+      "total": 2050,
+      "subsystems": [
+        {
+          "name": "Fit & Finish Components",
+          "subsystemId": "FF100",
+          "total": 2050,
+          "components": [
+            {
+              "partNumber": "FF100",
+              "name": "Paint",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 120,
+              "quantity": 10,
+              "totalCost": 1200,
+              "design": ""
+            },
+            {
+              "partNumber": "FF101",
+              "name": "Stickers",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 25,
+              "quantity": 10,
+              "totalCost": 250,
+              "design": ""
+            },
+            {
+              "partNumber": "FF102",
+              "name": "Accessories",
+              "manufacturedOrBought": "Bought Part",
+              "processUsed": null,
+              "processCost": null,
+              "rawMaterialCost": null,
+              "fastenersCost": null,
+              "toolingCost": null,
+              "unitCost": 300,
+              "quantity": 2,
+              "totalCost": 600,
+              "design": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
