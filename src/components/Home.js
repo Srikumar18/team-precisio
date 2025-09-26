@@ -1,6 +1,6 @@
 // src/components/Home.js
 import React from 'react';
-import { Box, Typography, Button } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
 const Home = () => {
   return (
@@ -48,25 +48,6 @@ const Home = () => {
       >
         Welcome to our team cost management portal. Navigate using the menu above.
       </Typography>
-      <Button
-        component="a"
-        href="/downloads/finance_report.pdf"
-        download
-        variant="contained"
-        sx={{
-          backgroundColor: '#DC143C',
-          borderRadius: '20px',
-          px: 3,
-          py: 1.5,
-          fontSize: { xs: '0.8rem', sm: '1rem' },
-          textTransform: 'none',
-          '&:hover': {
-            backgroundColor: '#b01035',
-          },
-        }}
-      >
-        Download Now
-      </Button>
     </Box>
   );
 };
