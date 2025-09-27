@@ -1,73 +1,81 @@
-# Welcome to your Lovable project
+---
 
-## Project info
+# Cost Report Explorer
 
-**URL**: https://lovable.dev/projects/de39301d-fb15-4f4d-9e64-95b67f0eae2c
+This project converts an **Excel-based cost report** into structured JSON (`costData.json`) and provides a **React frontend** to navigate the Bill of Materials (BOM) by domain (e.g., Frame & Body, Brake System, Steering System, etc.). Each component includes cost breakdowns and a placeholder image.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+* Extracts **all domains** (Frame & Body, Brake System, Wheels, Suspension, etc.) from Excel.
+* Each domain contains:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/de39301d-fb15-4f4d-9e64-95b67f0eae2c) and start prompting.
+  * Components with cost breakdowns
+  * A dummy image link for now (`https://dummyimage.com/...`)
+  * A total cost calculation
+* `BOM` sheet is **ignored** (only subsystems matter).
+* React frontend supports:
 
-Changes made via Lovable will be committed automatically to this repo.
+  * Navigation between domains
+  * Viewing component details and costs
+  * Displaying images per domain/component
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ⚙️ Setup
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app runs on [http://localhost:8080](http://localhost:8080).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📊 Data Format
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Each domain in `costData.json` looks like this:
 
-## What technologies are used for this project?
+```json
+{
+  "name": "BRAKES SYSTEM",
+  "total": 5226,
+  "overviewImage": "https://dummyimage.com/1200x600/ccc/000&text=brakes_system",
+  "components": [
+    {
+      "partNumber": "BS101",
+      "name": "Brake Pedal",
+      "manufacturedOrBought": "Bought",
+      "processUsed": "",
+      "processCost": null,
+      "rawMaterialCost": null,
+      "fastenersCost": null,
+      "toolingCost": null,
+      "unitCost": 100.0,
+      "quantity": 1,
+      "totalCost": 100.0,
+      "image": "https://dummyimage.com/600x400/000/fff&text=brake_pedal"
+    }
+  ]
+}
+```
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🖼️ Images
 
-## How can I deploy this project?
+* Each **domain** has an `overviewImage`.
+* Each **component** has its own `image`.
+* Currently they are **dummy placeholders** generated via [dummyimage.com](https://dummyimage.com).
+* To use real diagrams:
 
-Simply open [Lovable](https://lovable.dev/projects/de39301d-fb15-4f4d-9e64-95b67f0eae2c) and click on Share -> Publish.
+  * Place images inside `public/src/assets/domain_name/component_name`
+  * Update the `"image"` field in `costData.json` to point to your actual file paths.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## ✅ Next Steps
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+* Replace dummy images with real images extracted from Excel or designed diagrams.
