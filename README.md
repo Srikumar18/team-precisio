@@ -5,6 +5,8 @@
 This project converts an **Excel-based cost report** into structured JSON (`costData.json`) and provides a **React frontend** to navigate the Bill of Materials (BOM) by domain (e.g., Frame & Body, Brake System, Steering System, etc.). Each component includes cost breakdowns and a placeholder image.
 
 ---
+### 🔗 Link: https://teamprecisio-costmanagement.netlify.app
+---
 
 ## 🚀 Features
 
